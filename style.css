@@ -26,11 +26,16 @@ textarea {
   margin-top: 20px;
   position: relative;
   resize: none;
-  min-width: 380px;
+  min-width: 350px;
   text-align: center;
   max-width: 450px;
   font-size: 1.04em;
   height: 3vh;
+}
+@media screen and (max-width: 450px) {
+  textarea {
+    min-width: 300px;
+  }
 }
 .bd-clipboard {
   display: flex;
@@ -62,6 +67,8 @@ h2,
 }
 .css-code {
   margin-top: -30px;
+  padding-right: 80px;
+  padding-left: 6px;
 }
 h1 {
   letter-spacing: 0.6em;
