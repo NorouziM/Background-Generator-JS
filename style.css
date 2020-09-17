@@ -32,11 +32,7 @@ textarea {
   font-size: 1.04em;
   height: 3vh;
 }
-@media screen and (max-width: 450px) {
-  textarea {
-    min-width: 300px;
-  }
-}
+
 .bd-clipboard {
   display: flex;
   position: relative;
@@ -153,4 +149,13 @@ h1 {
 .radius-picker__value:after {
   font-weight: normal;
   content: "\00b0";
+}
+
+@media screen and (max-width: 450px) {
+  textarea {
+    min-width: 280px !important;
+  }
+  h1 {
+    font-size: 1.7em;
+  }
 }
