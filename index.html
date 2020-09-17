@@ -4,15 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Google Font (Kufam) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Load Style -->
     <link rel="stylesheet" href="style.css" />
+
     <title>Gradient Background</title>
   </head>
   <body>
-    <h1>Gradient Background Generator</h1>
-    <input id="color1" type="color" name="color1" value="#FF416C" />
-    <input id="color2" type="color" name="color2" value="#FF4B2B" />
-    <h2>Current CSS Code</h2>
-    <p class="css-code"></p>
+    <div class="container">
+      <div class="center">
+        <h1>Gradient Background Generator</h1>
+        <div class="color-input">
+          <input id="color1" type="color" name="color1" value="#FF416C" />
+          <input id="color2" type="color" name="color2" value="#FF4B2B" />
+        </div>
+        <h2>Current CSS Code</h2>
+        <code class="css-code"></code>
+      </div>
+    </div>
+    <!-- Load Script -->
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

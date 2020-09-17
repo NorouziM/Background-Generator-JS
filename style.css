@@ -4,4 +4,40 @@ body {
     rgba(255, 65, 108, 1) 0%,
     rgba(255, 75, 43, 1) 50%
   );
+  height: 50vh;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  height: 100vh;
+  position: relative;
+  padding: 40px auto;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+code {
+  background-color: #272822;
+  color: #f8f8f2;
+  border-radius: 0.3rem;
+  padding: 40px 50px 50px;
+  white-space: nowrap;
+  margin-top: 20px;
+  position: absolute;
+}
+.color-input {
+}
+h1,
+h2,
+.color-input {
+  margin: 60px auto;
 }
